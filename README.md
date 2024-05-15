@@ -6,36 +6,40 @@ Capstone Project Real Estate Listings: Automated Comparison
 # Final-Project-Tableau
 
 
-Overview
+Introduction
 
-This project aims to explore and utilize data Visualization and Dashboards with Tableau for comprehensive data analysis. The project seeks to reach into various types of ways to derive actionable insights from data. It uses the data provided in this case AirBnB with listings in New York City to generate how customers use their products and analysizes the capacity to gain an accurate and deep understanding on why these choices are made.
+In the dynamic realm of real estate, where market trends fluctuate and economic landscapes evolve, understanding the intricate interplay of factors governing property transactions is essential for success. As the cornerstone of wealth generation and economic development, real estate encompasses a myriad of disciplines, from finance and investment analysis to urban planning and property law. This capstone project delves into the multifaceted world of real estate, aiming to explore, analyze, and propose innovative solutions to contemporary challenges facing the industry.
 
-The business should be looked at from all angles, some of which include
-
-The location, room type and property type with the highest and lowest prices and the margin to be made from each or a combination of two or more of the different types of data.
-
-The outliers should be noted because they have unique features and cannot be compared based one just one feature alone.
-
-Taking note of the cost to maintain a location should also be a factor to consider when making decisions that will affect the profit from each AirBnB host.
-
-Other categories that might not involve the features provided which can contribute to expected margins should be factored into the analysis
 
 Project/Goals
-Demonstration of visuals
 
-This program enables the use of tableau features, best practices and effective dashboard design principles.
+This capstone project aims to achieve the following objectives:
 
-Insights
+Comprehensive Analysis: 
 
-To use Tableau to showcase compelling data visualization by selecting appropriate chart types and organizing data.
+Conduct a thorough analysis of local, regional, or national real estate markets, identifying key trends, opportunities, and challenges.
 
-Enable Decision making
+Case Studies: 
 
-Using this tableau to present findings to indentify trends, correlations, outliers or patterns that can inform decision-making accross various functions and levels within an organization.
+Explore real-world case studies highlighting successful real estate projects, investment strategies, and regulatory frameworks.
 
-Enhance Communication
+Innovative Solutions:
 
-Use the information provided to present information in a clear, concise and visually appealing manner to facilitate understanding and drive informed action.
+Propose innovative solutions to address contemporary challenges facing the real estate industry, such as housing affordability, infrastructure development, and sustainable urbanization.
+
+Stakeholder Engagement: 
+
+Engage with industry professionals, policymakers, and community stakeholders to gain diverse perspectives and insights into real estate dynamics.
+
+Strategic Recommendations: 
+
+Develop strategic recommendations for stakeholders, including investors, developers, government agencies, and community organizations, to enhance decision-making processes and maximize value creation in real estate projects.
+
+Conclusion
+
+As the global population continues to grow and urbanize, the demand for quality housing, infrastructure, and amenities will intensify, presenting both opportunities and challenges for the real estate industry. By leveraging data-driven insights, embracing innovation, and fostering collaboration, stakeholders can navigate the complexities of the real estate market and contribute to sustainable development and inclusive prosperity. This capstone project endeavors to provide a holistic understanding of real estate dynamics and equip stakeholders with the knowledge and tools to thrive in an ever-changing landscape.
+
+
 
 Process
 
