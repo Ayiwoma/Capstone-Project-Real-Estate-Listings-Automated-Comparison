@@ -130,6 +130,13 @@ Given these factors conducting a thorough analysis that takes into account vario
 
 
 
+
+
+
+
+![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/94fe5786-e420-4113-87fa-f4629ec79236)
+
+
 Using Line graph was another way to showcase this data, this combined the AirBnB hosts since 2009, the top X customers and their price range, this chart enabled the data to show that the highest price point was in 2014, it also showed the trend of rentals from the different hosts. This line graph can also be used to project future trends thereby making informed decisions based on predicitive analytics because it combines three data types.
 
 image
