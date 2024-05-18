@@ -151,26 +151,47 @@ Overall, the bar chart serves as a valuable tool for understanding the pricing l
 
 ![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/94fe5786-e420-4113-87fa-f4629ec79236)
 
+3. How does the linear regression analysis of real estate data, particularly regarding the relationship between square footage and price,   
+   provide insights into property valuation and potential price predictions?
 
-Using Line graph was another way to showcase this data, this combined the AirBnB hosts since 2009, the top X customers and their price range, this chart enabled the data to show that the highest price point was in 2014, it also showed the trend of rentals from the different hosts. This line graph can also be used to project future trends thereby making informed decisions based on predicitive analytics because it combines three data types.
+The linear regression analysis of real estate data, focusing on the relationship between square footage and price, offers valuable insights into property valuation and potential price predictions. By fitting a regression model to the data, we can determine the average change in price associated with each additional square foot of living space. This understanding helps in assessing the impact of property size on its market value, allowing for more informed decision-making in buying, selling, or investing in real estate. Moreover, the regression model enables us to make predictions about property prices based on their square footage, aiding in pricing strategies and negotiations. Overall, leveraging linear regression analysis in real estate provides a quantitative framework for understanding property valuation dynamics and making data-driven predictions in the market.
 
-image
+using the code below to get linear regression of the data by comparing property prices and square feet
 
-Use the trend of past number of beds and price to forecast the trend with scatter plot to show that where clients will rent airbnb in the future as that has been the trend in past as the concentration is in the lefthand corner of the chart.
+```import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 
-image
+# Read the Excel file into a pandas DataFrame
+realestate_data = pd.read_excel(r'C:\Users\Ayiwoma\OneDrive\Documents\documents 2022\lighthouse labs\capstone project\Homes for Sale and Real Estate.xlsx')
 
-In comparing the data set and identifying outliers, a box plot was used to show the concentration of rentals across room type and prices. This chart showcased the median price range for each property type and room type, while also showing the outliers for prices that are out of range. The observation noticed here is that the property type that were the outliers, had some unique features some of which villa and private room. Using this box plot also showed both the upper whisker, upper hinge and lower whisker, lower hinge indicating the interquartile range across the data excluding the outliers.
 
-image
+price = realestate_data['Price']
+square_feet = realestate_data['Sq.Ft']
 
-A bar chart was used to showcase how number of rooms compared to prices, some rooms rented for less and some rooms rented for more, which showed that the price was not a determining factor when it compared to count of rooms rented. The insight from this type of chart showed that the product determined the price in this case the product is the room type. This bar chart shows comparison between categories across room types and property types, recommendation given will be that investing in the types that provide the most revenue.
+# Create scatter plot
+plt.figure(figsize=(10, 6))
+plt.scatter(square_feet, price, color='blue', alpha=0.5)
+plt.title('Real Estate Price vs. Square feet')
+plt.xlabel('Square feet')
+plt.ylabel('Price')
+plt.grid(True)
 
-image
+# Fit a linear regression model
+model = LinearRegression()
+model.fit(square_feet.values.reshape(-1, 1), price)
 
-Tableau Dashbord
+# Get the slope and intercept of the regression line
+slope = model.coef_[0]
+intercept = model.intercept_
 
-https://public.tableau.com/app/profile/ayiwoma.anwasia/viz/practicestory_17154032168170/AirBnDNYC?publish=yes
+# Add the regression line to the plot
+plt.plot(square_feet, slope * square_feet + intercept, color='red')
+
+plt.show()```
+
+![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/7e688817-b3f7-4496-a959-7b6eb5a6d52d)
+
 
 Challenges
 Some of the challenges faced included having to deals with missing data, which would affect the accuracy of the data provided, and would require extensive cleaning and preprocessing before visualization can occur. Some of the missing data included zip codes and host names. Therefore the data shown included only the available data.
