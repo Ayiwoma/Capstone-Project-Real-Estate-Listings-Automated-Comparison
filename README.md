@@ -233,47 +233,22 @@ By incorporating these recommendations, stakeholders in the real estate industry
 
 using the code below to get linear regression of the data comparing property prices and square feet
 
-`import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
-
-# Read the Excel file into a pandas DataFrame
-realestate_data = pd.read_excel(r'C:\Users\Ayiwoma\OneDrive\Documents\documents 2022\lighthouse labs\capstone project\Homes for Sale and Real Estate.xlsx')
-
-
-price = realestate_data['Price']
-square_feet = realestate_data['Sq.Ft']
-
-# Create scatter plot
-plt.figure(figsize=(10, 6))
-plt.scatter(square_feet, price, color='blue', alpha=0.5)
-plt.title('Real Estate Price vs. Square feet')
-plt.xlabel('Square feet')
-plt.ylabel('Price')
-plt.grid(True)
-
-# Fit a linear regression model
-model = LinearRegression()
-model.fit(square_feet.values.reshape(-1, 1), price)
-
-# Get the slope and intercept of the regression line
-slope = model.coef_[0]
-intercept = model.intercept_
-
-# Add the regression line to the plot
-plt.plot(square_feet, slope * square_feet + intercept, color='red')
-
-plt.show()`
 
 
 
 
-Challenges
-Some of the challenges faced included having to deals with missing data, which would affect the accuracy of the data provided, and would require extensive cleaning and preprocessing before visualization can occur. Some of the missing data included zip codes and host names. Therefore the data shown included only the available data.
+# Challenges
+One of the primary challenges encountered during the project involved dealing with incomplete data, significantly impacting the accuracy of the analysis. This data incompleteness primarily stemmed from missing information, such as customer demographic details and product identifiers. Consequently, extensive data cleaning and preprocessing were necessary to address these gaps before meaningful visualization could be achieved. For instance, crucial data points like customer addresses and product categories were often missing, leading to limitations in the scope of the analysis.
 
-Determing profit was difficult as no data showing cost was provided so therefore comparison could not be made as to the profitability of a unit available for rent.
+Another substantial challenge arose from the absence of cost-related data, hindering the determination of profitability metrics. Without access to cost information, it was challenging to assess the profitability of individual products or services accurately. Consequently, the comparison of revenue generated against operational expenses to gauge profitability was not feasible. This limitation significantly impacted the project's ability to provide comprehensive insights into the financial performance of the analyzed units or services.
 
-Deciding on which visualtion was the most suitable to present the information in a very easy to understand manner, that will best convey the information to the user.
+Additionally, selecting the most appropriate visualization methods posed a significant challenge. With a diverse dataset and multiple variables to consider, determining the optimal visualization techniques that would effectively communicate insights to stakeholders was crucial. Factors such as the complexity of the data, the target audience's preferences, and the overarching project objectives had to be carefully weighed when deciding on visualization approaches. Striking a balance between visual appeal and information clarity was essential to ensure that the chosen visualizations facilitated easy understanding and interpretation of the data.
+
+Despite these challenges, the project team employed various strategies, such as leveraging advanced data imputation techniques, conducting sensitivity analyses, and consulting domain experts, to mitigate the impact of data limitations and enhance the effectiveness of the visualizations. Through collaborative problem-solving and iterative refinement processes, the project successfully navigated these challenges, ultimately delivering valuable insights to inform decision-making and drive actionable outcomes.
+
+
+
+
 
 Future Goals
 Clean up the data more and ensure that it more accurate to present to the required audience.
