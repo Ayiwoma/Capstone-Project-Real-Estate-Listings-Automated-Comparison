@@ -164,35 +164,16 @@ using the code below to get linear regression of the data by comparing property 
 
 
 
-```import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
-
-# Read the Excel file into a pandas DataFrame
-realestate_data = pd.read_excel(r'C:\Users\Ayiwoma\OneDrive\Documents\documents 2022\lighthouse labs\capstone project\Homes for Sale and Real Estate.xlsx')
 
 
-price = realestate_data['Price']
-square_feet = realestate_data['Sq.Ft']
+Challenges
+Some of the challenges faced included having to deals with missing data, which would affect the accuracy of the data provided, and would require extensive cleaning and preprocessing before visualization can occur. Some of the missing data included zip codes and host names. Therefore the data shown included only the available data.
 
-# Create scatter plot
-plt.figure(figsize=(10, 6))
-plt.scatter(square_feet, price, color='blue', alpha=0.5)
-plt.title('Real Estate Price vs. Square feet')
-plt.xlabel('Square feet')
-plt.ylabel('Price')
-plt.grid(True)
+Determing profit was difficult as no data showing cost was provided so therefore comparison could not be made as to the profitability of a unit available for rent.
 
-# Fit a linear regression model
-model = LinearRegression()
-model.fit(square_feet.values.reshape(-1, 1), price)
+Deciding on which visualtion was the most suitable to present the information in a very easy to understand manner, that will best convey the information to the user.
 
-# Get the slope and intercept of the regression line
-slope = model.coef_[0]
-intercept = model.intercept_
+Future Goals
+Clean up the data more and ensure that it more accurate to present to the required audience.
 
-# Add the regression line to the plot
-plt.plot(square_feet, slope * square_feet + intercept, color='red')
-
-plt.show()```
-
+Use other wasys to combine the data presented to give more insights into the provided data.
