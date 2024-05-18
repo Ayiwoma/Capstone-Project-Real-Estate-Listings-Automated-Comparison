@@ -156,7 +156,13 @@ Overall, the bar chart serves as a valuable tool for understanding the pricing l
 
 The linear regression analysis of real estate data, focusing on the relationship between square footage and price, offers valuable insights into property valuation and potential price predictions. By fitting a regression model to the data, we can determine the average change in price associated with each additional square foot of living space. This understanding helps in assessing the impact of property size on its market value, allowing for more informed decision-making in buying, selling, or investing in real estate. Moreover, the regression model enables us to make predictions about property prices based on their square footage, aiding in pricing strategies and negotiations. Overall, leveraging linear regression analysis in real estate provides a quantitative framework for understanding property valuation dynamics and making data-driven predictions in the market.
 
+
+
+![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/7e688817-b3f7-4496-a959-7b6eb5a6d52d)
+
 using the code below to get linear regression of the data by comparing property prices and square feet
+
+
 
 ```import pandas as pd
 import matplotlib.pyplot as plt
@@ -190,17 +196,3 @@ plt.plot(square_feet, slope * square_feet + intercept, color='red')
 
 plt.show()```
 
-![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/7e688817-b3f7-4496-a959-7b6eb5a6d52d)
-
-
-Challenges
-Some of the challenges faced included having to deals with missing data, which would affect the accuracy of the data provided, and would require extensive cleaning and preprocessing before visualization can occur. Some of the missing data included zip codes and host names. Therefore the data shown included only the available data.
-
-Determing profit was difficult as no data showing cost was provided so therefore comparison could not be made as to the profitability of a unit available for rent.
-
-Deciding on which visualtion was the most suitable to present the information in a very easy to understand manner, that will best convey the information to the user.
-
-Future Goals
-Clean up the data more and ensure that it more accurate to present to the required audience.
-
-Use other wasys to combine the data presented to give more insights into the provided data.
