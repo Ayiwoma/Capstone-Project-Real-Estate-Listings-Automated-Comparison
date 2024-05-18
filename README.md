@@ -160,6 +160,37 @@ The linear regression analysis of real estate data, focusing on the relationship
 
 ![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/7e688817-b3f7-4496-a959-7b6eb5a6d52d)
 
+
+Interpretation of the model above is detailed below:
+
+Scatter Plot:
+
+The scatter plot shows the relationship between the square footage of real estate properties (x-axis) and their prices (y-axis).
+Each blue point represents a real estate property, with its position indicating its square footage and price.
+From the scatter plot, we can observe the general trend or pattern of the relationship between square footage and price.
+Linear Regression Line:
+
+The red line added to the scatter plot represents the best-fitting linear regression line.
+This regression line is determined by the linear regression model fitted to the data using the method of least squares.
+The slope of the regression line indicates the average change in price for a one-unit increase in square footage.
+The intercept represents the predicted price when the square footage is zero. However, this interpretation might not be meaningful in the context of real estate, as properties typically have positive square footage.
+Interpreting the Coefficients:
+
+The coefficient of the square footage (slope) indicates the average change in price for each additional square foot of living space.
+For example, if slope is positive, it means that, on average, larger properties tend to have higher prices. Conversely, if it's negative, larger properties tend to have lower prices on average.
+The intercept (intercept) represents the predicted price when the square footage is zero. However, in most practical scenarios, this intercept might not have a meaningful interpretation.
+Model Fit:
+
+The fit of the linear regression model can be evaluated based on how closely the regression line aligns with the data points in the scatter plot.
+A good fit would mean that the regression line captures the general trend of the data well.
+If the points are spread closely around the regression line, it suggests that the linear model is an appropriate representation of the relationship between square footage and price.
+Predictions:
+
+This linear regression model can be used to make predictions about the prices of real estate properties based on their square footage.
+Given a new square footage value, the model can predict the corresponding price based on the equation of the regression line.
+Overall, this analysis provides insights into how square footage influences the prices of real estate properties, allowing for better understanding and potentially making predictions about property prices based on their size.
+
+
 Based on the insights gained from the linear regression analysis of real estate data, I recommend the following:
 
 Consider Property Size Carefully:
