@@ -233,7 +233,7 @@ By incorporating these recommendations, stakeholders in the real estate industry
 
 using the code below to get linear regression of the data comparing property prices and square feet
 
-'import pandas as pd
+`import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
@@ -263,7 +263,7 @@ intercept = model.intercept_
 # Add the regression line to the plot
 plt.plot(square_feet, slope * square_feet + intercept, color='red')
 
-plt.show()'
+plt.show()`
 
 
 
