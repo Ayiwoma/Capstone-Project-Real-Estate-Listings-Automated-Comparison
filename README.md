@@ -231,8 +231,39 @@ By incorporating these recommendations, stakeholders in the real estate industry
 
 
 
-using the code below to get linear regression of the data by comparing property prices and square feet
+using the code below to get linear regression of the data comparing property prices and square feet
 
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Read the Excel file into a pandas DataFrame
+realestate_data = pd.read_excel(r'C:\Users\Ayiwoma\OneDrive\Documents\documents 2022\lighthouse labs\capstone project\Homes for Sale and Real Estate.xlsx')
+
+
+price = realestate_data['Price']
+square_feet = realestate_data['Sq.Ft']
+
+# Create scatter plot
+plt.figure(figsize=(10, 6))
+plt.scatter(square_feet, price, color='blue', alpha=0.5)
+plt.title('Real Estate Price vs. Square feet')
+plt.xlabel('Square feet')
+plt.ylabel('Price')
+plt.grid(True)
+
+# Fit a linear regression model
+model = LinearRegression()
+model.fit(square_feet.values.reshape(-1, 1), price)
+
+# Get the slope and intercept of the regression line
+slope = model.coef_[0]
+intercept = model.intercept_
+
+# Add the regression line to the plot
+plt.plot(square_feet, slope * square_feet + intercept, color='red')
+
+plt.show()
 
 
 
