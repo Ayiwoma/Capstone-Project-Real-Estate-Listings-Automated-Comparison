@@ -55,9 +55,9 @@ As the global population continues to grow and urbanize, the demand for quality 
 
 Define Your Objective:
 
-Start by clearly defining the goal of the project. 
 
-The problem or question addressed understanding customer behavior and optimizing business processes.
+
+The objective of this project is to understand customer behavior and optimizing business processes in real estate sector.
 
 Identify Data Sources:
 
