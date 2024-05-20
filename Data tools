@@ -1,4 +1,4 @@
-
+using the code below via python to get linear regression of the data comparing property prices and square feet
 
 
 ```import pandas as pd
