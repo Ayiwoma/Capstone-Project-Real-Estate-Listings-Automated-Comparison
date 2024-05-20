@@ -32,3 +32,9 @@ intercept = model.intercept_
 plt.plot(square_feet, slope * square_feet + intercept, color='red')
 
 plt.show()```
+
+
+
+
+
+
