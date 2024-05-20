@@ -231,7 +231,7 @@ By incorporating these recommendations, stakeholders in the real estate industry
 
 
 
-using the code below to get linear regression of the data comparing property prices and square feet
+
 
 
 
