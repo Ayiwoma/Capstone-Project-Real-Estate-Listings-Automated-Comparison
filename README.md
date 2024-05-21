@@ -132,7 +132,9 @@ Historical Trends: Historical sales data and price trends in the area can provid
 Given these factors conducting a thorough analysis that takes into account various factors can provide a more comprehensive understanding of real estate market dynamics.
 
 
-![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/529f7b0c-83d6-4569-89b1-a79ce543d1e7)
+
+![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/22d0b2c6-e74b-433e-92bd-ee441d177742)
+
 
 
 
