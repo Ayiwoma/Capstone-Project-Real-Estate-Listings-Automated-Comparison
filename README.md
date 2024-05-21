@@ -149,7 +149,12 @@ To gain a comprehensive understanding, it's crucial to delve deeper into the und
 
 Overall, the bar chart serves as a valuable tool for understanding the pricing landscape across different places and provides insights that can inform strategic decision-making, market positioning, and pricing strategies.
 
-![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/94fe5786-e420-4113-87fa-f4629ec79236)
+
+
+
+![image](https://github.com/Ayiwoma/Capstone-Project-Real-Estate-Listings-Automated-Comparison/assets/141646278/7ae5496c-5b86-4a62-8bda-820fb441dcb6)
+
+
 
 3. How does the linear regression analysis of real estate data, particularly regarding the relationship between square footage and price,   
    provide insights into property valuation and potential price predictions?
